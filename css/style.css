@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+:root {
+    --colortext: white;
+    --maincolor: rgb(244, 98, 58);
+
+}
+
+.page {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../assets/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+h4 {
+    color: var(--colortext);
+    justify-self: flex-start;
+    position: absolute;
+    left: 18%;
+    top: 10px;
+
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    right: 15%;
+    font-weight: bold;
+    top: 16px;
+
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    color: var(--colortext);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.h {
+    color: var(--colortext);
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    text-align: center;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-left: 250px;
+    margin-top: 20%;
+}
+
+.h::after {
+    content: '';
+    top: 56%;
+    background-color: var(--maincolor);
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 49.5%;
+}
+
+p {
+    display: flex;
+    justify-items: center;
+    color: var(--colortext);
+    text-align: center;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.2;
+    max-lines: 2;
+    margin-left: 45%;
+    margin-bottom: -42px;
+
+}
+
+
+button {
+    width: 100px;
+    padding: 10px;
+    color: var(--colortext);
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    box-shadow: var(--maincolor);
+    font-weight: bold;
+    /* margin-left: 67%; */
+    text-decoration: none;
+    font-size: xx-small;
+    position: absolute;
+    bottom: 30%;
+    right: 45%;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+li a {
+    text-decoration: none;
+    color: var(--colortext);
+}
